@@ -6,7 +6,7 @@ Given positive integers n, a, and b, for all integers i from 1 to n inclusive:
 -   if i is divisible by both a and b print FizzBuzz
 -   if divisible by a print Fizz
 -   if divisible by b print Buzz
--   else print i 
+-   else print i
 
 Input:
 n a and b
@@ -30,7 +30,7 @@ fizzbuzz, fizz, buzz = 0, 0, 0
 
 # Loop through 1 to n inclusive
 for i in range(1, n + 1):
-    # Swtich statements 
+    # Swtich statements
     if i % a == 0 and i % b == 0:
         fizzbuzz += 1
     elif i % a == 0:
@@ -40,5 +40,4 @@ for i in range(1, n + 1):
         # print(f'Buzz - {i}')
         buzz += 1
 
-print(f'Fizz: {fizz}, Buzz: {buzz}, FizzBuzz: {fizzbuzz}')
-
+print(f"Fizz: {fizz}, Buzz: {buzz}, FizzBuzz: {fizzbuzz}")
