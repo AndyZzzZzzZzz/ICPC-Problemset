@@ -20,6 +20,7 @@ Sample Input:
 Sample Output:
 4 2 1
 
+https://open.kattis.com/problems/generalizedfizzbuzz
 """
 
 # Read inputs

@@ -24,6 +24,8 @@ Sample Input:
 
 Sample Output:
 10
+
+https://open.kattis.com/problems/champernownesubsequence
 """
 
 # Solution: This is an interesting problem. Since we are checking for subsequence, we don't actually have to construct the string and trying to delete characters.
