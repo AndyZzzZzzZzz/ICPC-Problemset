@@ -78,8 +78,5 @@ Exponentiation:
 Naive approach: Actually building the value by calling 62 ** power
 Optimized:      Ignore exponentiation
 
-Digit -> value look up
-Naive approach: calls ord(c) everytime when we wanna check its lexi value
-Optimized:      builds a 128 element look up table for quick access
-
+Digit -> value look up table's optimization is questionalble. I doubt it makes a difference in any case
 """
